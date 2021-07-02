@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: blue url("waterrrr.jpg");
+}
+
+p {
+    font-size: 15pt;
+    color: white;
+}
+
+ol {
+    font-size: 15pt;
+    color: white;
+}
+
+a {
+    color: white;
+    font-size: 25pt;
+    text-decoration:none;
+}
+
+body {
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+
+head {
+    text-align: center;
+}
+
+#navbar {
+    text-align: center;
+    width: 100%;
+    transform: translateY(-160%);
+}
+#navbar li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 2.5em;
+    padding-right: 2.5sem;
+}
+#navbar li:hover {
+    transform: scale(1.05);
+    text-shadow: #000000ce 0 0 .5em;
+}
+#middle-navbar-li {
+    font-size: 3em;
+}
+#topbar {
+    width: 100%;
+    height: 10em;
+    background-image: linear-gradient(#0c0a9c,rgb(0,0,0,0));
+}
+
+#rightside {
+    font-size: 15pt;
+    color :white;
+}
+
+#leftside {
+    font-size: 15pt;
+    color :white;
+}
+
+#middleside {
+    font-size: 30pt;
+    color: white;
+}
